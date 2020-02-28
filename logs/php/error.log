@@ -1,0 +1,278 @@
+[19-Feb-2020 21:39:33 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 4
+[20-Feb-2020 10:52:22 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 49
+[20-Feb-2020 11:48:47 UTC] PHP Warning:  Use of undefined constant get_the_ID - assumed 'get_the_ID' (this will throw an Error in a future version of PHP) in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 21
+[20-Feb-2020 11:48:47 UTC] PHP Stack trace:
+[20-Feb-2020 11:48:47 UTC] PHP   1. {main}() /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php:0
+[20-Feb-2020 11:48:47 UTC] PHP   2. require() /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php:17
+[20-Feb-2020 11:48:47 UTC] PHP   3. require_once() /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php:19
+[20-Feb-2020 11:48:47 UTC] PHP   4. include() /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php:98
+[20-Feb-2020 12:31:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_permalinnk() in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/page.php:25
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include()
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#3 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 25
+[25-Feb-2020 14:45:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_exerpt() in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:61
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include()
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#3 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 61
+[25-Feb-2020 19:54:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_field() in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:28
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include()
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#3 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 28
+[25-Feb-2020 19:56:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_field() in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:28
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include()
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#3 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 28
+[25-Feb-2020 19:57:15 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (19/02/2020) at position 0 (1): Unexpected character in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:28
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(28): DateTime->__construct('19/02/2020')
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#3 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#4 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 28
+[25-Feb-2020 19:57:24 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (19/02/2020) at position 0 (1): Unexpected character in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:28
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(28): DateTime->__construct('19/02/2020')
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#3 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#4 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 28
+[25-Feb-2020 20:03:50 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (19/02/2020) at position 0 (1): Unexpected character in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:28
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(28): DateTime->__construct('19/02/2020')
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#3 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#4 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 28
+[25-Feb-2020 20:23:08 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (19/02/2020) at position 0 (1): Unexpected character in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:28
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(28): DateTime->__construct('19/02/2020')
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#3 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#4 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 28
+[25-Feb-2020 20:24:20 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (19/02/2020) at position 0 (1): Unexpected character in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:28
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(28): DateTime->__construct('19/02/2020')
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#3 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#4 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 28
+[25-Feb-2020 20:24:21 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (19/02/2020) at position 0 (1): Unexpected character in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:28
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(28): DateTime->__construct('19/02/2020')
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#3 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#4 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 28
+[25-Feb-2020 20:24:22 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (19/02/2020) at position 0 (1): Unexpected character in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:28
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(28): DateTime->__construct('19/02/2020')
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#3 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#4 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 28
+[25-Feb-2020 20:24:23 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (19/02/2020) at position 0 (1): Unexpected character in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:28
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(28): DateTime->__construct('19/02/2020')
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#3 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#4 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 28
+[25-Feb-2020 20:24:38 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (19/02/2020) at position 0 (1): Unexpected character in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:28
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(28): DateTime->__construct('19/02/2020')
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#3 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#4 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 28
+[25-Feb-2020 20:24:41 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (19/02/2020) at position 0 (1): Unexpected character in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:28
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(28): DateTime->__construct('19/02/2020')
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#3 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#4 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 28
+[25-Feb-2020 20:25:56 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (19/02/2020) at position 0 (1): Unexpected character in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:28
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(28): DateTime->__construct('19/02/2020')
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#3 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#4 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 28
+[25-Feb-2020 20:26:25 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (19/02/2020) at position 0 (1): Unexpected character in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:28
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(28): DateTime->__construct('19/02/2020')
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#3 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#4 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 28
+[25-Feb-2020 20:28:31 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (19/02/2020) at position 0 (1): Unexpected character in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:28
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(28): DateTime->__construct('19/02/2020')
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#3 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#4 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 28
+[25-Feb-2020 20:32:35 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (19/02/2020) at position 0 (1): Unexpected character in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:28
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(28): DateTime->__construct('19/02/2020')
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#3 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#4 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 28
+[25-Feb-2020 20:32:38 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (19/02/2020) at position 0 (1): Unexpected character in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:28
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(28): DateTime->__construct('19/02/2020')
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#3 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#4 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 28
+[25-Feb-2020 20:32:39 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (19/02/2020) at position 0 (1): Unexpected character in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:28
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(28): DateTime->__construct('19/02/2020')
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#3 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#4 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 28
+[25-Feb-2020 20:32:39 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (19/02/2020) at position 0 (1): Unexpected character in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:28
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(28): DateTime->__construct('19/02/2020')
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#3 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#4 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 28
+[25-Feb-2020 20:32:40 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (19/02/2020) at position 0 (1): Unexpected character in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:28
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(28): DateTime->__construct('19/02/2020')
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#3 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#4 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 28
+[25-Feb-2020 20:32:54 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (19/02/2020) at position 0 (1): Unexpected character in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:28
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(28): DateTime->__construct('19/02/2020')
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#3 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#4 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 28
+[25-Feb-2020 20:35:47 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (19/02/2020) at position 0 (1): Unexpected character in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:28
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(28): DateTime->__construct('19/02/2020')
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#3 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#4 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 28
+[25-Feb-2020 20:39:18 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (19/02/2020) at position 0 (1): Unexpected character in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:28
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(28): DateTime->__construct('19/02/2020')
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#3 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#4 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 28
+[25-Feb-2020 20:39:20 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (19/02/2020) at position 0 (1): Unexpected character in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:28
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(28): DateTime->__construct('19/02/2020')
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#3 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#4 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 28
+[25-Feb-2020 20:40:09 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (19/02/2020) at position 0 (1): Unexpected character in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:28
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(28): DateTime->__construct('19/02/2020')
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#3 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#4 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 28
+[25-Feb-2020 20:40:12 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (19/02/2020) at position 0 (1): Unexpected character in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:28
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(28): DateTime->__construct('19/02/2020')
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#3 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#4 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 28
+[26-Feb-2020 11:31:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/page-past-events.php:21
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include()
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#3 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/page-past-events.php on line 21
+[26-Feb-2020 20:56:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 32
+[26-Feb-2020 20:56:42 UTC] PHP Stack trace:
+[26-Feb-2020 20:56:42 UTC] PHP   1. {main}() /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php:0
+[26-Feb-2020 20:56:42 UTC] PHP   2. require() /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php:17
+[26-Feb-2020 20:56:42 UTC] PHP   3. require_once() /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php:19
+[26-Feb-2020 20:56:42 UTC] PHP   4. include() /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php:98
+[26-Feb-2020 20:59:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 30
+[26-Feb-2020 20:59:10 UTC] PHP Stack trace:
+[26-Feb-2020 20:59:10 UTC] PHP   1. {main}() /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php:0
+[26-Feb-2020 20:59:10 UTC] PHP   2. require() /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php:17
+[26-Feb-2020 20:59:10 UTC] PHP   3. require_once() /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php:19
+[26-Feb-2020 20:59:10 UTC] PHP   4. include() /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php:98
+[26-Feb-2020 21:13:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 31
+[26-Feb-2020 21:13:36 UTC] PHP Stack trace:
+[26-Feb-2020 21:13:36 UTC] PHP   1. {main}() /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php:0
+[26-Feb-2020 21:13:36 UTC] PHP   2. require() /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php:17
+[26-Feb-2020 21:13:36 UTC] PHP   3. require_once() /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php:19
+[26-Feb-2020 21:13:36 UTC] PHP   4. include() /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php:98
+[26-Feb-2020 21:14:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 31
+[26-Feb-2020 21:14:42 UTC] PHP Stack trace:
+[26-Feb-2020 21:14:42 UTC] PHP   1. {main}() /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php:0
+[26-Feb-2020 21:14:42 UTC] PHP   2. require() /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php:17
+[26-Feb-2020 21:14:42 UTC] PHP   3. require_once() /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php:19
+[26-Feb-2020 21:14:42 UTC] PHP   4. include() /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php:98
+[26-Feb-2020 21:26:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 50
+[27-Feb-2020 10:31:41 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 47
+[27-Feb-2020 10:31:47 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 47
+[27-Feb-2020 10:33:41 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 51
+[27-Feb-2020 10:38:21 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 45
+[27-Feb-2020 11:11:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 33
+[27-Feb-2020 11:11:28 UTC] PHP Stack trace:
+[27-Feb-2020 11:11:28 UTC] PHP   1. {main}() /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php:0
+[27-Feb-2020 11:11:28 UTC] PHP   2. require() /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php:17
+[27-Feb-2020 11:11:28 UTC] PHP   3. require_once() /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php:19
+[27-Feb-2020 11:11:28 UTC] PHP   4. include() /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php:98
+[27-Feb-2020 11:26:05 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 9 and exactly 1 expected in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/link-template.php:1213
+Stack trace:
+#0 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(9): get_post_type_archive_link()
+#1 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/template-loader.php(98): include('/Users/aperelom...')
+#2 /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-blog-header.php(19): require_once('/Users/aperelom...')
+#3 /Users/apereloma/Local Sites/ficitonal-university/app/public/index.php(17): require('/Users/aperelom...')
+#4 {main}
+  thrown in /Users/apereloma/Local Sites/ficitonal-university/app/public/wp-includes/link-template.php on line 1213
